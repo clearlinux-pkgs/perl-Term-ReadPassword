@@ -4,7 +4,7 @@
 #
 Name     : perl-Term-ReadPassword
 Version  : 0.11
-Release  : 2
+Release  : 3
 URL      : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libterm-readpassword-perl/libterm-readpassword-perl_0.11-3.debian.tar.xz
@@ -78,7 +78,7 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.26.1/Term/ReadPassword.pm
+/usr/lib/perl5/vendor_perl/5.28.0/Term/ReadPassword.pm
 
 %files dev
 %defattr(-,root,root,-)
