@@ -4,7 +4,7 @@
 #
 Name     : perl-Term-ReadPassword
 Version  : 0.11
-Release  : 7
+Release  : 8
 URL      : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libterm-readpassword-perl/libterm-readpassword-perl_0.11-3.debian.tar.xz
