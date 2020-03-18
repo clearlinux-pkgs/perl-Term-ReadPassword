@@ -4,7 +4,7 @@
 #
 Name     : perl-Term-ReadPassword
 Version  : 0.11
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/P/PH/PHOENIX/Term-ReadPassword-0.11.tar.gz
 Source1  : http://http.debian.net/debian/pool/main/libt/libterm-readpassword-perl/libterm-readpassword-perl_0.11-3.debian.tar.xz
@@ -77,7 +77,7 @@ make TEST_VERBOSE=1 test
 %install
 rm -rf %{buildroot}
 mkdir -p %{buildroot}/usr/share/package-licenses/perl-Term-ReadPassword
-cp %{_builddir}/Term-ReadPassword-0.11/deblicense/copyright %{buildroot}/usr/share/package-licenses/perl-Term-ReadPassword/329ef92ca26e682ea3d1dd1808862437fdb74bac
+cp %{_builddir}/debian/copyright %{buildroot}/usr/share/package-licenses/perl-Term-ReadPassword/329ef92ca26e682ea3d1dd1808862437fdb74bac
 if test -f Makefile.PL; then
 make pure_install PERL_INSTALL_ROOT=%{buildroot} INSTALLDIRS=vendor
 else
@@ -101,4 +101,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.30.1/Term/ReadPassword.pm
+/usr/lib/perl5/vendor_perl/5.30.2/Term/ReadPassword.pm
